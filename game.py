@@ -366,6 +366,7 @@ class theGame:
                         self.player.speed += 1
                         self.enemySpeed += 1
                         self.round += 1
+                        self.enemies.empty()
                         
                         
                     else:
