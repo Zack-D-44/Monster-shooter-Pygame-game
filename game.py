@@ -152,7 +152,7 @@ class DrawUIInfo:
         
 
 #Class that handles player powerups
-class PowerUps(pygame.sprite.Sprite):
+'''class PowerUps(pygame.sprite.Sprite):
     def __init__(self, screen):
         pygame.sprite.Sprite.__init__(self)
         
@@ -245,7 +245,7 @@ class PowerUps(pygame.sprite.Sprite):
             powerUpRect.y += self.powerUpSpeed
 
         #Drawing sprite 
-        self.screen.blit(powerUpImage, powerUpRect)
+        self.screen.blit(powerUpImage, powerUpRect)'''
         
         
 
@@ -271,8 +271,8 @@ class theGame:
 
         
         #creating powerups object and creating a health powerup
-        self.powerUps = PowerUps(self.screen)
-        self.powerUps.healthPowerUp()
+        #self.powerUps = PowerUps(self.screen)
+        #self.powerUps.healthPowerUp()
         
         #Initialising enemies        
         self.enemies = pygame.sprite.Group()
@@ -412,7 +412,7 @@ class theGame:
         self.bullets.draw(self.screen)
         self.uiInfo.drawScore(self.enemiesKilled)
         self.uiInfo.drawHealth(self.player.health)
-        self.powerUps.powerUpUpdate(self.powerUps.hPowerUpRect, self.powerUps.hPowerUpImage)
+        #self.powerUps.powerUpUpdate(self.powerUps.hPowerUpRect, self.powerUps.hPowerUpImage)
         
         #self.powerUps.powerUpUpdate(self.powerUps.fRatePowerUpRect, self.powerUps.fRatePowerUpImage)
         
