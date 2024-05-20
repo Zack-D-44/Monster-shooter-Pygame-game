@@ -3,12 +3,19 @@ This is a 2D shooter game that I have developed using Pygame. In the game the pl
 
 
 Features
+
 Player movement: Move the character up and down using the w and s keys
+
 Shooting: Press the spacebar to shoot bullets
+
 Enemy Generation: Waves of enemies will spawn at random intervals and move towards the player
+
 Collision Detection: Bullets can hit enemies and the game ends if the enemies hit the player enough times to reduce their health to zero
+
 Score Tracking: A score is tracked based on the number of eneies defeated
+
 Health System: Player halth decreases when hit by an enemy
+
 Round System: The game has a round system that increases the difficulty as the player progresses
 
 
