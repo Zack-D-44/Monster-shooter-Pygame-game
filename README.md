@@ -2,7 +2,7 @@
 This is a 2D shooter game that I have developed using Pygame. In the game the player controls a character that can move up and down and shoot at enemies by pressing the space bar. The game features enemy spawing, collision detection, and a simple UI that displays health, score and current round. 
 
 
-Features
+## Features
 
 Player movement: Move the character up and down using the w and s keys
 
@@ -19,7 +19,7 @@ Health System: Player halth decreases when hit by an enemy
 Round System: The game has a round system that increases the difficulty as the player progresses
 
 
-Installation
+## Installation
 To run this game you will need Python installed on your machine.
 
 To do this install Python from the official website
@@ -29,7 +29,7 @@ Once this is done clone the repository
 Then install all of the requirements using the following command:
 pip install -r requirements.txt
 
-How to play
+## How to play
 Run the game by executing the main game script:
 
 python main.py
