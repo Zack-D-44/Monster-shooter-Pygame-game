@@ -44,3 +44,11 @@ Objective
 Shoot as many enemies as possible to achieve a hight score. Avoid collisions with the enemies.
 
 
+## Screenshots
+
+![Screenshot 2024-05-20 230512](https://github.com/Zack-D-44/Monster-shooter-Pygame-game/assets/125923264/0c1c8ab5-e329-4e9e-baf9-1cc0c56b2689)
+![Screenshot 2024-05-20 230433](https://github.com/Zack-D-44/Monster-shooter-Pygame-game/assets/125923264/dfeff954-dee1-4904-bb2b-877bf55cf566)
+![Screenshot 2024-05-20 230415](https://github.com/Zack-D-44/Monster-shooter-Pygame-game/assets/125923264/3a44403a-a143-4e34-8904-2f3a3dae94d8)
+
+
+
