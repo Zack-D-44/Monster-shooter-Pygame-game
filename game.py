@@ -150,6 +150,9 @@ class DrawUIInfo:
         healthText = self.font.render(f'{health}', True, (255,0,0))
         self.screen.blit(healthText, (360, 10))
         
+    def drawRound(self, round):
+        roundText = self.font.render(f'{round}', True, (200,21,32))
+        self.screen.blit(roundText, (10, 35))
 
 #Class that handles player powerups
 '''class PowerUps(pygame.sprite.Sprite):
@@ -367,6 +370,7 @@ class theGame:
                         self.enemySpeed += 1
                         self.round += 1
                         self.enemies.empty()
+                        self.uiInfo.drawRound(self.round)
                         
                         
                     else:
@@ -422,6 +426,7 @@ class theGame:
         self.bullets.draw(self.screen)
         self.uiInfo.drawScore(self.enemiesKilled)
         self.uiInfo.drawHealth(self.player.health)
+        self.uiInfo.drawRound(self.round)
         #self.powerUps.powerUpUpdate(self.powerUps.hPowerUpRect, self.powerUps.hPowerUpImage)
         
         #self.powerUps.powerUpUpdate(self.powerUps.fRatePowerUpRect, self.powerUps.fRatePowerUpImage)
