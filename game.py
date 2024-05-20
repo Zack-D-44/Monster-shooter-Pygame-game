@@ -289,6 +289,8 @@ class theGame:
         self.uiInfo.drawScore(0)
         self.uiInfo.drawHealth(self.player.health)
 
+        self.round = 1
+
     
     #Handling random powerup spawns
     def chooseRandomPowerUp(self):
@@ -314,10 +316,10 @@ class theGame:
         for _ in range(randint(1,5)):
             enemy = Enemy(self.player, self.enemySpeed, self.screen)
             self.enemies.add(enemy)
-            if self.enemiesKilled % 10 == 0:##not working come back to later
+            '''if self.enemiesKilled % 10 == 0:##not working come back to later
                 self.enemySpeed += 0.1  
                 self.player.speed += 1
-                print(self.player.speed, self.enemySpeed)
+                print(self.player.speed, self.enemySpeed)'''
 
     
 
@@ -359,6 +361,13 @@ class theGame:
                         self.enemies.remove(enemy)
                         #Counting how many enemies killed
                         self.enemiesKilled += 1
+                    if self.enemiesKilled/10 == self.round:
+                        self.player.health += 10
+                        self.player.speed += 1
+                        self.enemySpeed += 1
+                        self.round += 1
+                        
+                        
                     else:
                         #Setting enemy is hit to activate its hit effect
                         enemy.isHit = True
