@@ -4,19 +4,19 @@ This is a 2D shooter game that I have developed using Pygame. In the game the pl
 
 ## Features
 
-Player movement: Move the character up and down using the w and s keys
+- Player movement: Move the character up and down using the w and s keys
 
-Shooting: Press the spacebar to shoot bullets
+- Shooting: Press the spacebar to shoot bullets
 
-Enemy Generation: Waves of enemies will spawn at random intervals and move towards the player
+- Enemy Generation: Waves of enemies will spawn at random intervals and move towards the player
 
-Collision Detection: Bullets can hit enemies and the game ends if the enemies hit the player enough times to reduce their health to zero
+- Collision Detection: Bullets can hit enemies and the game ends if the enemies hit the player enough times to reduce their health to zero
 
-Score Tracking: A score is tracked based on the number of eneies defeated
+- Score Tracking: A score is tracked based on the number of eneies defeated
 
-Health System: Player halth decreases when hit by an enemy
+- Health System: Player halth decreases when hit by an enemy
 
-Round System: The game has a round system that increases the difficulty as the player progresses
+- Round System: The game has a round system that increases the difficulty as the player progresses
 
 
 ## Installation
@@ -27,17 +27,17 @@ To do this install Python from the official website
 Once this is done clone the repository
 
 Then install all of the requirements using the following command:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## How to play
-Run the game by executing the main game script:
+1. Run the game by executing the main game script:
 
-python main.py
+`python main.py`
 
 Controls
-Move Up: Press the W key
-Move Down: Press the S key
-Shoot: Press the spacebar
+- Move Up: Press the W key
+- Move Down: Press the S key
+- Shoot: Press the spacebar
 
 Objective
 
