@@ -29,15 +29,15 @@ This is a 2D shooter game that I have developed using Pygame. In the game the pl
 - Then install all of the requirements using the following command:
 `pip install -r requirements.txt`
 
-## How to play
-1. Run the game by executing the following command in the terminal `python main.py`
+## How To Play
+- Run the game by executing the following command in the terminal `python main.py`
 
-Controls
+### Controls
 - Move Up: Press the W key
 - Move Down: Press the S key
 - Shoot: Press the spacebar
 
-Objective
+### Objective
 
 Shoot as many enemies as possible to achieve a hight score. Avoid collisions with the enemies.
 
