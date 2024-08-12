@@ -30,9 +30,7 @@ This is a 2D shooter game that I have developed using Pygame. In the game the pl
 `pip install -r requirements.txt`
 
 ## How to play
-1. Run the game by executing the main game script:
-
-`python main.py`
+1. Run the game by executing the following command in the terminal `python main.py`
 
 Controls
 - Move Up: Press the W key
