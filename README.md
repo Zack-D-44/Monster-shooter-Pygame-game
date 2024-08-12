@@ -20,13 +20,13 @@ This is a 2D shooter game that I have developed using Pygame. In the game the pl
 
 
 ## Installation
-To run this game you will need Python installed on your machine.
+- To run this game you will need Python installed on your machine.
 
-To do this install Python from the official website
+- To do this install Python from the official website
 
-Once this is done clone the repository
+- Once this is done clone the repository
 
-Then install all of the requirements using the following command:
+- Then install all of the requirements using the following command:
 `pip install -r requirements.txt`
 
 ## How to play
